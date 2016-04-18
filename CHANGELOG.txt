@@ -1,8 +1,8 @@
 [CHANGELOG]
 ===========
 
-UNO
-======
+PiStatus
+=========
 
 >>> start-date: 09.03.16
 >>> status-date: 18.03.16
