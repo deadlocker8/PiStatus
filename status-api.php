@@ -51,5 +51,5 @@ $infos = array(
 'cpuLoad' => $load
 );
 
-echo json_encode($infos);
+$json = json_encode($infos);
 ?>

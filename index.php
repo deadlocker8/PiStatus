@@ -1,5 +1,5 @@
 <?php
-$json = file_get_contents("http://".$_SERVER['SERVER_NAME']."/status/status-api.php");
+include_once "status-api.php";
 $infos = json_decode($json);
 
 $percentageRAMClear = substr($infos->memPercentageUsed, 0, strlen($infos->memPercentageUsed) -2);
